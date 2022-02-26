@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="App">
       <span>zare</span>
-      {console.log("test==>", Greeter)}
+      {console.log("testGreeter==>", Greeter)}
+      <Greeter name="zahraaaa" />
     </div>
   );
 }

@@ -3,9 +3,8 @@ import { Greeter } from "my-greeter-package";
 function App() {
   return (
     <div className="App">
-      {console.log("test==>", Greeter)}
-
       <span>zare</span>
+      {console.log("test==>", Greeter)}
     </div>
   );
 }
